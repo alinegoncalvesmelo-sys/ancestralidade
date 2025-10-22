@@ -1,4 +1,24 @@
 body{
-    color:rgb(247, 225, 35);
-    background: rgb(201, 170, 87);
+    color: rgb(114, 97, 22);
+    background: rgb(242, 247, 149);
+    margin: 0px;
+    font-family: "Permanent Marker", sans-serif;
+}
+header{
+    border-bottom: solid 2px rgb(12, 14, 24);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(241, 182, 20);
+}
+
+section{
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
 }
