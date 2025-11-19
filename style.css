@@ -3,6 +3,7 @@ body{
     background: rgb(242, 247, 149);
     margin: 0px;
     font-family: "Permanent Marker", sans-serif;
+    margin-bottom: 100px;
 }
 header{
     border-bottom: solid 2px rgb(12, 14, 24);
@@ -28,10 +29,7 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
-.categoria{
+.categorias-videos{
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -44,4 +42,16 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categorias-videos img{
+opacity:0.5;
+height:200px;
+}
+.categorias-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid #af680a
+}
+.categoria h2{
+    color:rgb(241, 182, 20);
 }
